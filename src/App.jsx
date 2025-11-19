@@ -1,4 +1,5 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
+import Authfirebase from "./Authfirebase";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Footer from "./components/Footer";
@@ -12,14 +13,15 @@ const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
+        <Authfirebase/>
+        {/* <Header />
         <Hero />
         <Benefits />
         <Collaboration />
         <Services />
         <Pricing />
         <Roadmap />
-        <Footer />
+        <Footer /> */}
       </div>
 
       <ButtonGradient />
